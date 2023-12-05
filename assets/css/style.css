@@ -78,7 +78,6 @@ nav ul li a:hover {
 }
 
 /* ---Main section--- */
-
 main {
     
 }
@@ -86,7 +85,8 @@ main {
 /* Headline boxes in Main section */
 .about {
     background-color: #D52E25;
-    height: 600px;
+    height: fit-content;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,13 +101,14 @@ main {
     height: 50px;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px -5px 5px -1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px -5px 5px -1px rgba(0, 0, 0, .5);
     color: #ffffff;
 }
 
 .recap {
     background-color: #ffffff;
-    height: 600px;
+    height: fit-content;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,13 +123,14 @@ main {
     height: 50px;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px -5px 5px -1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px -5px 5px -1px rgba(0, 0, 0, .5);
     color: #000000;
 }
 
 .contact {
     background-color: #888888;
-    height: 600px;
+    height: fit-content;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,7 +145,7 @@ main {
     height: 50px;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px -5px 5px -1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px -5px 5px -1px rgba(0, 0, 0, .5);
     color: #ffffff;
 }
 
@@ -156,13 +158,23 @@ main {
     color: #cccccc;
 }
 
+#about-text-box {
+    width: 50%;
+}
+#about-img-box {
+    width: 50%;
+}
+#about-img {
+    width: 100%;
+}
+
 
 /* ---Footer section--- */
-
 /* Headline box in Footer section */
 footer {
     background-color: #000000;
-    height: 250px;
+    height: fit-content;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,13 +189,12 @@ footer {
     height: 50px;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px -5px 5px -1px rgba(255, 255, 255, 0.35);
+    box-shadow: 0px -5px 5px -1px rgba(255, 255, 255, .35);
     color: #ffffff;
 }
 
 
 /* ---Responsive adjustments--- */
-
 /* Medie query: large screens (1200px and up) */
 @media screen and (min-width: 1200px) { 
     /* Fix size of content container */
@@ -204,7 +215,17 @@ footer {
     /* Change arrangement of content in container */
     .content-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    #about-text-box {
+        width: 80%;
+        align-self: center;
+        background-color: rgba(213, 46, 37, .5);
+    }
+    #about-img-box {
+        width: 90%;
+        align-self: center;
     }
 }
 
