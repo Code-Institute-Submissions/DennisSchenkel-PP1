@@ -19,7 +19,7 @@ h1, h2, h3 {
 }
 
 
-/* ---Header content--- */
+/* ---Header section--- */
 header {
     height: 450px;
     background: url("../images/misfits-header.jpg") no-repeat center / cover;
@@ -77,12 +77,13 @@ nav ul li a:hover {
     font-size: 1.5em;
 }
 
-/* ---Main content--- */
+/* ---Main section--- */
 
 main {
     
 }
 
+/* Headline boxes in Main section */
 .about {
     background-color: #D52E25;
     height: 600px;
@@ -146,15 +147,19 @@ main {
     color: #ffffff;
 }
 
+/* Content styling in Main section */
 .content-container {
-    width: 1000px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
     border: 1px solid #cccccc;
-
     color: #cccccc;
 }
 
 
-/* ---Footer content--- */
+/* ---Footer section--- */
+
+/* Headline box in Footer section */
 footer {
     background-color: #000000;
     height: 250px;
@@ -175,3 +180,56 @@ footer {
     box-shadow: 0px -5px 5px -1px rgba(255, 255, 255, 0.35);
     color: #ffffff;
 }
+
+
+/* ---Responsive adjustments--- */
+
+/* Medie query: large screens (1200px and up) */
+@media screen and (min-width: 1200px) { 
+    /* Fix size of content container */
+    .content-container {
+        max-width: 1000px;
+    }
+}
+
+/* Medie query: small laptops and larger (992px and down) */
+@media screen and (max-width: 992px) {
+    .content-container {
+
+    }
+}
+
+/* Medie query: tablet and larger (768px and down) */
+@media screen and (max-width: 768px) {
+    /* Change arrangement of content in container */
+    .content-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Medie query: tablet and larger (576px and down) */
+@media screen and (max-width: 576px) {
+    /* Change size of navigation */
+    nav {
+        font-size: 0.8em;
+        padding: 10px 20px 10px 20px;
+        color: #ffffff;
+    }
+    nav ul li {
+        margin: 0 10px 0 10px;
+    }
+    
+    /* Change size of content container */
+    .content-container {
+        width: 100%;
+    }    
+}
+
+/* Medie query: extra small phone (280px and down) */
+@media screen and (max-width: 280px) {
+
+}
+
+
+
