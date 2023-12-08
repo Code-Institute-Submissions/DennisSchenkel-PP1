@@ -14,9 +14,15 @@ body {
     font-family: Lato, Helvetica, sans-serif;
 }
 
+
+
+/*
 h1, h2, h3 {
 
 }
+*/
+
+
 
 
 /* ---Header section--- */
@@ -78,9 +84,19 @@ nav ul li a:hover {
 }
 
 /* ---Main section--- */
+
+
+
+
+/*
 main {
     
 }
+*/
+
+
+
+
 
 /* Headline boxes in Main section */
 .about {
@@ -150,14 +166,13 @@ main {
 }
 
 /* Content styling in Main section */
-.content-container {
+.about-content-container {
     width: 90%;
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    color: #cccccc;
+    color: #ffffff;
 }
-
 #about-text-box {
     width: 50%;
     align-self: center;
@@ -169,6 +184,38 @@ main {
     width: 100%;
 }
 
+.recap-content-container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+#recap-text-box {
+    width: 100%;
+    align-self: center;
+} 
+#recap-video-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#recap-video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+.recap-img-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.recap-img-container img {
+    width: 20%;
+}
 
 /* ---Footer section--- */
 /* Headline box in Footer section */
@@ -207,7 +254,7 @@ footer {
 /* Medie query: small laptops and larger (992px and down) */
 @media screen and (max-width: 992px) {
     /* Change arrangement of about content */
-    .content-container {
+    .about-content-container {
         display: grid;
     }
     #about-text-box {
@@ -219,12 +266,19 @@ footer {
         width: 55%;
         justify-self: flex-end;
     }
+    .recap-img-container {
+        width: 85%;
+        justify-content: space-evenly;
+    }
+    .recap-img-container img {
+        width: 30%;
+    }
 }
 
 /* Medie query: tablet and larger (768px and down) */
 @media screen and (max-width: 768px) {
     /* Change arrangement of content in container */
-    .content-container {
+    .about-content-container {
         display: flex;
         flex-direction: column-reverse;
     }
@@ -241,6 +295,17 @@ footer {
         width: 90%;
         align-self: center;
     }
+    /* Changes recap section */
+    .recap-content-container {
+        flex-direction: column-reverse;
+    }
+    #recap-text-box {
+        width: 90%;
+    } 
+    #recap-video-box {
+        width: 90%;
+        align-self: center;
+    } 
 }
 
 /* Medie query: tablet and larger (576px and down) */
@@ -254,11 +319,10 @@ footer {
     nav ul li {
         margin: 0 10px 0 10px;
     }
-    
-    /* Change size of content container */
-    .content-container {
+    /* Change size of about content container */
+    .about-content-container {
         width: 100%;
-    }    
+    }
 }
 
 /* Medie query: extra small phone (280px and down) */
