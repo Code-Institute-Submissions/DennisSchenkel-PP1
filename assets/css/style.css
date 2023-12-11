@@ -122,7 +122,7 @@ nav ul li a:hover {
     color: #ffffff;
 }
 
-/* Content styling in Main section */
+/* Element styling in Main section */
 /* About styling */
 .about-content-container {
     width: 90%;
@@ -210,6 +210,30 @@ nav ul li a:hover {
 .send:hover {
     background-color: #751a15;
 }
+
+
+/* ---Imprint.html--- */
+
+.imprint {
+    background-color: #ffffff;
+    height: fit-content;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imprint-headline {
+    background-color: #ffffff;
+    box-shadow: 0px -5px 5px -1px rgba(0, 0, 0, .5);
+    color: #000000;
+}
+.imprint-content-container {
+    width: 90%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+
 
 /* ---Footer section--- */
 /* Headline box in Footer section */
