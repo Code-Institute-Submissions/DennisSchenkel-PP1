@@ -198,6 +198,12 @@ nav ul li a:hover {
 .checkbox {
     margin: 5px 5px 5px 5px;
 }
+/* Align send button to the center */
+.send-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
 .send {
     width: 40%;
     margin-top: 10px;
