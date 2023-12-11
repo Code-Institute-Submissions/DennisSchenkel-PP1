@@ -47,7 +47,7 @@
 <main>
     <!-- This section gives a brief introduction to what digital misfits is -->
     <section id="about" class="about">
-        <div id="about-headline">
+        <div class="headline about-headline">
             <h2>About</h2>
         </div>
         <div class="about-content-container">
@@ -63,7 +63,7 @@
 
     <!-- This section gives an impression of past digital misfits events -->
     <section id="recap" class="recap">
-        <div id="recap-headline">
+        <div class="headline recap-headline">
             <h2>Recap</h2>
         </div>
         <div class="recap-content-container">
@@ -86,19 +86,22 @@
 
     <!-- This section offers a contact form to get in touch with the digital misfits team -->
     <section id="contact" class="contact">
-        <div id="contact-headline">
+        <div class="headline contact-headline">
             <h2>Contact</h2>
         </div>
         <div class="contact-content-container">
             <form>
-                <label for="name">Name:</label><br />
-                <input type="text" name="name" required /><br />
-                <label for="name">eMail Adress:</label><br />
-                <input type="email" name="email" required /><br />
-                <label for="message">Your message belonges here:</label><br />
-                <textarea name="message" required></textarea><br />
-                <input type="checkbox" required /> jhbjh js fjhbj jbkas jh g kjbkbzvscd kbas  kabnef ibauisf<br />
-                <input type="submit" />
+                <input type="text" name="name" class="input" placeholder="Your Name" aria-label="Your name" required /><br />
+
+                <input type="email" name="email" class="input" placeholder="Your email adress" aria-label="Your email adress" required /><br />
+
+                <input type="text" name="topic" class="input" placeholder="Topic of your message" aria-label="Your email adress" required /><br />
+
+                <textarea name="message" class="input message"  placeholder="Your message belongs here" aria-label="Your message" required></textarea><br />
+
+                <input type="checkbox" class="checkbox" aria-label="Terms of services checkbox" required />With using this form to send a message, you agree to the terms of services and data security rules.<br />
+                
+                <input type="submit" value="Send" class="send" aria-label="Send" />
             </form>
         </div>
     </section>
@@ -107,7 +110,7 @@
 <!-- Footer -->
 <footer>
     <!-- The footer provides some social media icons and links as well as a link to the imprint.html -->
-    <div id="footer-headline">
+    <div class="headline footer-headline">
         <h2>Footer</h2>
     </div>
 </footer>
