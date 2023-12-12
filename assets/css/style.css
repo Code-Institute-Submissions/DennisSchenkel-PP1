@@ -151,16 +151,6 @@ nav ul li a:hover {
     box-shadow: 0px -5px 5px -1px rgba(0, 0, 0, .5);
     color: #000000;
 }
-.misc-content-container {
-    width: 90%;
-    color: #000000;
-    margin-bottom: 30px;
-}
-.text-center {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 15%;
-}
 
 /* Element styling in Main section */
 /* About styling */
@@ -264,6 +254,17 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
+/* ---Imprint thankyou & 404 styling--- */
+.misc-content-container {
+    width: 90%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.text-center {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15%;
+}
 
 
 /* ---Footer section--- */
