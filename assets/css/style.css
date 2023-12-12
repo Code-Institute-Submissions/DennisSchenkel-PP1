@@ -1,7 +1,6 @@
 /* Import Google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
-
 /* Overwrite browser default */
 * {
     padding: 0;
@@ -146,17 +145,20 @@ nav ul li a:hover {
 .recap-content-container {
     width: 90%;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px;
+    gap: 2%;
     color: #000000;
     margin-bottom: 30px;
 }
 #recap-text-box {
+    width: 47%;
     padding: 0 10px 0 10px;
+    align-self: center;
 } 
 #recap-video-box {
-    width: 100%;
+    width: 47%;
     display: flex;
     align-items: center;
 }
@@ -171,7 +173,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
     row-gap: 10px;
 }
-.recap-img-container img {
+.recap-img {
     width: 22%;
 }
 
@@ -217,9 +219,7 @@ nav ul li a:hover {
     background-color: #751a15;
 }
 
-
 /* ---Imprint.html--- */
-
 .imprint {
     background-color: #ffffff;
     height: fit-content;
@@ -238,8 +238,6 @@ nav ul li a:hover {
     color: #000000;
     margin-bottom: 30px;
 }
-
-
 
 /* ---Footer section--- */
 /* Headline box in Footer section */
@@ -335,8 +333,13 @@ footer a {
     .recap-content-container {
         flex-direction: column-reverse;
     }
-    #recap-video-box {
+    #recap-text-box {
         width: 90%;
+        align-self: center;
+        margin-bottom: 20px;
+    } 
+    #recap-video-box {
+        width: 80%;
         align-self: center;
     } 
     /* Changes contact section */
@@ -363,11 +366,5 @@ footer a {
         width: 100%;
     }
 }
-
-/* Medie query: extra small phone (280px and down) */
-@media screen and (max-width: 280px) {
-
-}
-
 
 
