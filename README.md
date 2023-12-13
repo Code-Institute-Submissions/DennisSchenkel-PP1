@@ -145,7 +145,7 @@ To garantee a good accessibility, to the following aspects have been payed atten
 - Alt-Attributes added to all media content.
 - Aria-Labels added to all links and navigation icons.
 
-Do to not beeing good enough in terms of accessibility, a feature for zooming into images was dismissed for now.
+Duo to not beeing good enough in terms of accessibility, a feature for zooming into images was dismissed for now.
 
 ## Technologies used
 
@@ -263,9 +263,18 @@ Jigsaw CSS validation for the styles.css
 
 - No errors could be found by the Jigsaw validator.
 
+### Lighthouse Testing
+
+Lighthouse was used to test the index.html.
+While desktop results are in a good range, the mobile results lack in the area of performance.
+
+[Lighthouse Desktop Test](documentation/images/lighthouse-desktop.png)
+
+[Lighthouse Mobile Test](documentation/images/lighthouse-mobile.png)
+
 ### Known & unfixed bugs
 
-- At time of handing in the project no bugs where known.
+- Mobile performance is only mediorc. Images should be implemented in a smaller, mobile friendly resolution.
 
 ## Credits
 
