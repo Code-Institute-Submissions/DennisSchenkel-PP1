@@ -12,7 +12,7 @@ Digital Misfits is an online community and conference with regular events in Ger
   * [User Stories](#user-stories)
 
 * [Design](#design)
-  * [Colour Scheme](#colour-scheme)
+  * [Color Scheme](#color-scheme)
   * [Typography](#typography)
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
@@ -25,11 +25,11 @@ Digital Misfits is an online community and conference with regular events in Ger
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
-    * [Clone the repository](#clone-repository)
+* [Deployment](#deployment)
 
 * [Testing](#testing)
+  * [Validator Testing](#validator-testing)
+  * [Lighthouse Testing](#lighthouse-testing)
 
 * [Credits](#credits)
   * [Code Used](#code-used)
@@ -114,6 +114,7 @@ The website consits of four html pages and three seperate sections on the main p
 - [404.html](https://dennisschenkel.github.io/PP1/404.html)
 
 **All pages**
+
 All pages have these features in common:
 
 [Header:](documentation/images/header.png)
@@ -129,8 +130,8 @@ All pages have these features in common:
 Misc:
 - In the right bottom corner an arrow upwords as button for 'To the top'.
 
-**index.html**
 
+**index.html**
 [About section:](documentation/images/about.png)
 - The About section features a short text about what Digital Misfits is and what are the goals of the community.
 - Next to the text is an image showing speakers from one of the events hosted by Digital Misfits.
@@ -150,15 +151,19 @@ Misc:
 - The checkbox for accepting the terms and services has to be checked.
 - Afer clicking the send button the user is directed to the thankyou.html.
 
+
 **imprint.html**
-The imprint page only contains the terms of services and legal information in text form.
+- The imprint page only contains the terms of services and legal information in text form.
+
 
 **thankyou.html**
 - A notice that the message from the form was send.
 - After 10 seconds the user is automatically redirected to the index.html. 
 
+
 **404.html**
-The 404 page contains a text, informing the user that the page could not be found, and link directing to the index.html.
+- The 404 page contains a text, informing the user that the page could not be found, and link directing to the index.html.
+
 
 ### Accessibility
 
@@ -170,9 +175,11 @@ To garantee a good accessibility, to the following aspects have been payed atten
 
 Duo to not beeing good enough in terms of accessibility, a feature for zooming into images was dismissed for now.
 
+
 ## Technologies used
 
 For creating this website, the following technologies have been used.
+
 
 ### Languages Used
 
@@ -181,6 +188,7 @@ Languages used are the following:
 - CSS
 - JavaScript
 
+
 ### Frameworks, Libraries & Programs Used
 
 - Visual Studio Code - As IDE
@@ -188,13 +196,14 @@ Languages used are the following:
 - Adobe Illustrator - For Logo and Favicon design
 - tinyPNG - For image compression
 - Balsamiq - For wireframes
-- [ui.dev](https://ui.dev/amiresponsive) for generatin the Mockup
+- ui.dev - For generatin the Mockup
  
 - GitHub - As host for the repository and to deploy the website to make the preview visible to visitors.
 - Git - Used as integrated feature in Visual Studio Code for version control in combination with GitHub.
  
 - Google Fonts - To import the 'Lato' font.
 - Font Awesome - Icons for social media and "to the top" feature.
+
 
 ## Deployment
 
@@ -211,6 +220,7 @@ The process of deploying the website are as followed:
 
 [Find the deployed project here](https://dennisschenkel.github.io/PP1/)
 
+
 ## Testing
 
 **Navigation**
@@ -222,10 +232,12 @@ The process of deploying the website are as followed:
 - The imprint navigation item in the footer was clicked and tested on all pages and worked as exprected. (Except on the imprint page itself)
 - On the 404 page the 'Go back to our homepage' link was clickt and tested and worked as expected.
 
+
 **Media**
 
 - Playing and pausing the integrated YouTube video worked as expected.
 - All images on the site work as expected.
+
 
 **Responsiveness**
 
@@ -254,6 +266,7 @@ Responsivedness test results:
 - All flex element work as expected.
 - All images resize as expected.
 
+
 **Form**
 
 When testing the form the following things have been tested:
@@ -264,10 +277,12 @@ When testing the form the following things have been tested:
 - When correctly sending the form, the user is redirected to the thankyou.html.
 - On the thankyou.html the user is redirected to the index.html after 10 seconds.
 
+
 **404 page**
 
 When typing in an incorrect URL, e.g. a misspelling, the custom 404 page appears. 
 - Tested on all listed devices.
+
 
 ### Validator Testing
 
@@ -286,6 +301,7 @@ Jigsaw CSS validation for the styles.css
 
 - No errors could be found by the Jigsaw validator.
 
+
 ### Lighthouse Testing
 
 Lighthouse was used to test the index.html.
@@ -295,9 +311,11 @@ While desktop results are in a good range, the mobile results lack in the area o
 
 ![Lighthouse Mobile Test](documentation/images/lighthouse-mobile.png)
 
+
 ### Known & unfixed bugs
 
 - Mobile performance is only mediorc. Images should be implemented in a smaller, mobile friendly resolution.
+
 
 ## Credits
 
@@ -305,14 +323,17 @@ While desktop results are in a good range, the mobile results lack in the area o
 
 - Gareth McGirr provided code for the meta-description for automatic rerouting from trankyou.html to index.html after 10 seconds. Code was provided by slack chat.
 
+
 ### Content
 
 - The imprint was generated with the imprint generator from "[e-recht24.de](https:/e-recht24.de)"
 - All content concerning Digital Misfits was written by me, Dennis Schenkel.
 
+
 ###  Media
 
 - All media (video and images) used are property of the websites' owner.
+
 
 ###  Acknowledgments
 
