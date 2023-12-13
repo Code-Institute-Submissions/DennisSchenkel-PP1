@@ -144,7 +144,6 @@ To garantee a good accessibility, to the following aspects have been payed atten
 - Use of Sementic HTML on all pages.
 - Alt-Attributes added to all media content.
 - Aria-Labels added to all links and navigation icons.
-- Contrast has to be strong enough at every section of the website.
 
 Do to not beeing good enough in terms of accessibility, a feature for zooming into images was dismissed for now.
 
