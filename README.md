@@ -124,7 +124,7 @@ All pages have these features in common:
 
 [Footer:](documentation/images/footer.png)
 - Footer with a black background.
-- Three FontAwesome icons leading to social media sites.
+- Three Font Awesome icons leading to social media sites.
 - Link to imprint.html (not in inprint page itselfe)
 
 Misc:
@@ -191,18 +191,18 @@ Languages used are the following:
 
 ### Frameworks, Libraries & Programs Used
 
-- Visual Studio Code - As IDE
-- Adobe Photoshop - For simple picture editing
-- Adobe Illustrator - For Logo and Favicon design
-- tinyPNG - For image compression
-- Balsamiq - For wireframes
-- ui.dev - For generatin the Mockup
- 
-- GitHub - As host for the repository and to deploy the website to make the preview visible to visitors.
-- Git - Used as integrated feature in Visual Studio Code for version control in combination with GitHub.
- 
-- Google Fonts - To import the 'Lato' font.
-- Font Awesome - Icons for social media and "to the top" feature.
+- [Visual Studio Code](https://code.visualstudio.com/) - As IDE
+- [GitHub](https://github.com/) - As host for the repository and to deploy the website to make the preview visible to visitors
+- [Git](https://git-scm.com/) - Used as integrated feature in Visual Studio Code for version control in combination with GitHub
+- [Google Fonts](https://fonts.google.com/) - To import the 'Lato' font
+- [Font Awesome](https://fontawesome.com/) - Icons for social media and "to the top" feature
+
+- [Balsamiq](https://balsamiq.com/) - For wireframes
+- [Adobe](https://www.adobe.com/de/products/photoshop.html) Photoshop - For simple picture editing
+- [Adobe](https://www.adobe.com/de/products/illustrator.html) Illustrator - For Logo and Favicon design
+- [tinyPNG](https://tinypng.com/) - For image compression
+- [ui.dev](https://ui.dev/amiresponsive) - For generatin the Mockup
+- [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) - For performance and accessibility testing
 
 
 ## Deployment
