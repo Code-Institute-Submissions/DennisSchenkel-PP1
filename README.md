@@ -8,6 +8,7 @@ Digital Misfits is an online community and conference with regular events in Ger
 
 
 ## Table of Contents
+
 * [User Experience](#user-experience-ux)
   * [User Stories](#user-stories)
 
@@ -45,26 +46,24 @@ The Digital Misfits website is build to educate visitors about Digital Misfits, 
 
 ### User Stories
 
-What visitors should be able to:
-
-#### First time visitors
+#### First time visitors should be able to
 - To visit the website from devices with resolutions from small to large.
 - To be educated about Digital Misfits.
 - To get a feeling for what kind of community and events Digital Misfits offers.
 - To easily send a message to get invited to future events.
 - To find links to social media chanels.
 
-#### Returning visitors
+#### Returning visitors should be able to
 - To easily connect with the team by sending a messige with a form.
 
-#### All visitors on the Index page
+#### All visitors on the Index page should be able to
 - To navigate the website sections with the main menu.
 - To go back to the top by clicking an icon that is static in the right bottom corner.
 - To start and pause a event recap video.
 - To open pictures from a gallery of small thumbnails in a popup.
 - To send a message by using a form.
 
-#### All visitors on the Imprint page
+#### All visitors on the Imprint page should be able to
 - To visit the imprint site with a link in the footer.
 - To leave the imprint site by using the main menu.
 
@@ -92,7 +91,7 @@ Weights used are:
 - H1, H2, H3: 600
 - Paragraph: 400
 
-- Fonts are imported from [Google Fonts](https://fonts.google.com/)
+Fonts are imported from [Google Fonts](https://fonts.google.com/)
 
 ### Imagery
 
@@ -141,16 +140,17 @@ imprint.html
 
 ### Accessibility
 
---!>
-Sementic HTML
-Alt-Attributes
-Aria Labels for links and navigation icons
-Kontrast
+To garantee a good accessibility, to the following aspects have been payed attention:
+- Use of Sementic HTML on all pages.
+- Alt-Attributes added to all media content.
+- Aria-Labels added to all links and navigation icons.
+- Contrast has to be strong enough at every section of the website.
 
+Do to not beeing good enough in terms of accessibility, a feature for zooming into images was dismissed for now.
 
 ## Technologies used
 
---!>
+For creating this website, the following technologies have been used.
 
 ### Languages Used
 
@@ -162,53 +162,111 @@ Languages used are the following:
 ### Frameworks, Libraries & Programs Used
 
 - Visual Studio Code - As IDE
-- Adobe Photoshop - For simple picture editing and compression
+- Adobe Photoshop - For simple picture editing
 - Adobe Illustrator - For Logo and Favicon design
+- tinyPNG - For image compression
 - Balsamiq - For wireframes
 - [ui.dev](https://ui.dev/amiresponsive) for generatin the Mockup
-
+ 
 - GitHub - As host for the repository and to deploy the website to make the preview visible to visitors.
 - Git - Used as integrated feature in Visual Studio Code for version control in combination with GitHub.
-
+ 
 - Google Fonts - To import the 'Lato' font.
 - Font Awesome - Icons for social media and "to the top" feature.
 
-
 ## Deployment
 
---!> 
+This page is deployed on GitHub pages.
+The process of deploying the website are as followed:
+- When logged in to GitHub, the 'Settings' navigation item is to find in the top navigation bar. This has to selected.
+- On the then opening page is a navigation bar on the left side. Here choose 'Pages'.
+- In the now opening settings page the  following settings habe to be made.
+- In the dropdown menu choose 'Deploy from branch'.
+- In the first dropdown below chooss 'main'.
+- In the secon dropdown choose '/root'.
+- After saving these settings the page is deployed.
+- GitHub needs a few seconds and after refreshing the page a button to the deployed page is displayed in the top with 'Visit site' on it.
 
-### Clone Repository
-
---!>
-
+[Find the deployed project here](https://dennisschenkel.github.io/PP1/)
 
 ## Testing
 
-alle links, form etc per hand getestet. New tabs for link.
-dokumentieren, dass alles getestet wurde
+**Navigation**
+
+- All navigation items in the header have been clicked and tested on all pages and worked as expected.
+- All navigation links in the header directed to the index.html in all other sites as the index.html itself.
+- The 'Go to top' icon in the right bottom corner was clicked and tested on all pages and worked as expected.
+- The social media icons in the footer where clicked and tested on all pages and opend up in new tabs as expected.
+- The imprint navigation item in the footer was clicked and tested on all pages and worked as exprected. (Except on the imprint page itself)
+- On the 404 page the 'Go back to our homepage' link was clickt and tested and worked as expected.
+
+**Media**
+
+- Playing and pausing the integrated YouTube video worked as expected.
+- All images on the site work as expected.
+
+**Responsiveness**
+
+The website was tested with the following browsers:
+- Chrome Desktop Mac
+- Chrome Desktop Win
+- Safari Desktop Mac
+- Edge Desktop Win
+- Chrome iPhone
+- Safari iPhone
+- Chrome iPad
+- Safari iPad
+- Meta Quest Browser VR
+
+The website was tested with Chrome DevTools for following devices:
+- iPhone XR
+- iPhone 12
+- iPhone 12 Max Pro
+- Pixel 7
+- Samsung Galaxy S8+
+- Surface Pro 7
+
+Responsivedness test results:
+- Website worked on all devices as expected.
+- Resizing the browser to different resolutions resulted in the page acting as expected.
+- All flex element work as expected.
+- All images resize as expected.
+
+**Form**
+
+When testing the form the following things have been tested:
+- All form fields have been filled.
+- The email field has to be filled with an email address.
+- The checkbox for accepting the terms of services has be checked.
+- If one of the above is not correct, the form can not be send and a notice pops up at the wrong field strating from the top.
+- When correctly sending the form, the user is redirected to the thankyou.html.
+- On the thankyou.html the user is redirected to the index.html after 10 seconds.
+
+**404 page**
+
+When typing in an incorrect URL, e.g. a misspelling, the custom 404 page appears. 
+- Tested on all listed devices.
 
 ### Validator Testing
 
-- HTML
-![Index.html W3C Validator](documentation/images/w3validator-index.png)
-W3C validation for the index.html site
+HTML:
+W3C HTML validation for the index.html site:
+[Index.html W3C Validator](documentation/images/w3validator-index.png)
 
-![Imprint.html W3C Validator](documentation/images/w3validator-imprint.png)
-W3C validation for the imprint.html site
+W3C HTML validation for the imprint.html site:
+[Imprint.html W3C Validator](documentation/images/w3validator-imprint.png)
 
 - No errors could be found by the W3C validator.
 
-- CSS
-![Style.css Jigsaw Validator](documentation/images/jigsaw-validator.png)
-Jigsaw validation for the styles.css
+CSS:
+Jigsaw CSS validation for the styles.css
+[Style.css Jigsaw Validator](documentation/images/jigsaw-validator.png)
 
 - No errors could be found by the Jigsaw validator.
 
 ### Known & unfixed bugs
 
 - At time of handing in the project no bugs where known.
-
 
 ## Credits
 
