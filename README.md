@@ -113,6 +113,61 @@ Wireframes for the imprint.html site.
 
 ### General features on each page
 
+The website consits of four html pages and three seperate sections on the main page. Pages are the following:
+- [index.html](https://dennisschenkel.github.io/PP1/index.html)
+- [imprint.html](https://dennisschenkel.github.io/PP1/imprint.html)
+- [thankyou.html](https://dennisschenkel.github.io/PP1/thankyou.html)
+- [404.html](https://dennisschenkel.github.io/PP1/404.html)
+
+**All pages**
+All pages have these features in common:
+
+[Header:](documentation/wireframes/header.png)
+- Header with background image.
+- Navigation with four items.
+- Text area with name and claim.
+
+[Footer:](documentation/wireframes/footer.png)
+- Footer with a black background.
+- Three FontAwesome icons leading to social media sites.
+- Link to imprint.html (not in inprint page itselfe)
+
+Misc:
+- In the right bottom corner an arrow upwords as button for 'To the top'.
+
+**index.html**
+
+[About section:](documentation/wireframes/about.png)
+- The About section features a short text about what Digital Misfits is and what are the goals of the community.
+- Next to the text is an image showing speakers from one of the events hosted by Digital Misfits.
+
+[Recap section:](documentation/wireframes/recap.png)
+- The Recap section contains a video integrated with a i-frame and hosted on YouTube.
+- Next to the video a text about the events hosted Digital Misfits is to be found.
+- Under text and video six images with impressions from various events are shown.
+
+[Contact section:](documentation/wireframes/contact.png)
+- This section contains a contact form for sending a message to the page owner.
+- The contact form consits of four input fields and one checkbox and a send button below.
+- Next to the contact form a text with a link to the terms of services is to be found. 
+- The link to the terms and services opens in a new tab to not delete the message already written by the user.
+- All fields have to be filled. Otherwise an error message is displayed and the form can not be committed.
+- The email field needs to be filled with an email address.
+- The checkbox for accepting the terms and services has to be checked.
+- Afer clicking the send button the user is directed to the thankyou.html.
+
+
+**imprint.html**
+The imprint page only contains the terms of services and legal information in text form.
+
+**thankyou.html**
+- A notice that the message from the form was send.
+- After 10 seconds the user is automatically redirected to the index.html. 
+
+**404.html**
+The 404 page contains a text, informing the user that the page could not be found, and link directing to the index.html.
+
+
 On all pages
   Navigation
   Name and Claim
@@ -144,6 +199,7 @@ To garantee a good accessibility, to the following aspects have been payed atten
 - Use of Sementic HTML on all pages.
 - Alt-Attributes added to all media content.
 - Aria-Labels added to all links and navigation icons.
+- Aimed for a strong contrast.
 
 Duo to not beeing good enough in terms of accessibility, a feature for zooming into images was dismissed for now.
 
@@ -250,16 +306,16 @@ When typing in an incorrect URL, e.g. a misspelling, the custom 404 page appears
 
 HTML:
 W3C HTML validation for the index.html site:
-[Index.html W3C Validator](documentation/images/w3validator-index.png)
+![Index.html W3C Validator](documentation/images/w3validator-index.png)
 
 W3C HTML validation for the imprint.html site:
-[Imprint.html W3C Validator](documentation/images/w3validator-imprint.png)
+![Imprint.html W3C Validator](documentation/images/w3validator-imprint.png)
 
 - No errors could be found by the W3C validator.
 
 CSS:
 Jigsaw CSS validation for the styles.css
-[Style.css Jigsaw Validator](documentation/images/jigsaw-validator.png)
+![Style.css Jigsaw Validator](documentation/images/jigsaw-validator.png)
 
 - No errors could be found by the Jigsaw validator.
 
@@ -268,9 +324,9 @@ Jigsaw CSS validation for the styles.css
 Lighthouse was used to test the index.html.
 While desktop results are in a good range, the mobile results lack in the area of performance.
 
-[Lighthouse Desktop Test](documentation/images/lighthouse-desktop.png)
+![Lighthouse Desktop Test](documentation/images/lighthouse-desktop.png)
 
-[Lighthouse Mobile Test](documentation/images/lighthouse-mobile.png)
+![Lighthouse Mobile Test](documentation/images/lighthouse-mobile.png)
 
 ### Known & unfixed bugs
 
