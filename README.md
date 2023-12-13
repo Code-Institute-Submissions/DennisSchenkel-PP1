@@ -6,7 +6,6 @@ Digital Misfits is an online community and conference with regular events in Ger
 
 ![Mockup](documentation/images/mockup.png)
 
-
 ## Table of Contents
 
 * [User Experience](#user-experience-ux)
@@ -38,11 +37,9 @@ Digital Misfits is an online community and conference with regular events in Ger
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
 
-
 ## User Experience (UX)
 
 The Digital Misfits website is build to educate visitors about Digital Misfits, show recaps from past events and make them curious about future events. This should be achieved with a simple and clean design. Since the mayority of interaction of the community is happening on social media, the website should not distract from these channels and only offer basic functionalities.
-
 
 ### User Stories
 
@@ -67,11 +64,9 @@ The Digital Misfits website is build to educate visitors about Digital Misfits, 
 - To visit the imprint site with a link in the footer.
 - To leave the imprint site by using the main menu.
 
-
 ## Design
 
 For the overall website structure I choose an onepager with one additional subpage for the imprint that is mandatory in Germany.
-
 
 ### Color Scheme
 
@@ -108,7 +103,6 @@ Wireframes for the imprint.html site.
 
 - Final design might slightly deviate from the wireframes due to changes in the coding process.
 
-
 ## Features
 
 ### General features on each page
@@ -122,12 +116,12 @@ The website consits of four html pages and three seperate sections on the main p
 **All pages**
 All pages have these features in common:
 
-[Header:](documentation/wireframes/header.png)
+[Header:](documentation/images/header.png)
 - Header with background image.
 - Navigation with four items.
 - Text area with name and claim.
 
-[Footer:](documentation/wireframes/footer.png)
+[Footer:](documentation/images/footer.png)
 - Footer with a black background.
 - Three FontAwesome icons leading to social media sites.
 - Link to imprint.html (not in inprint page itselfe)
@@ -137,16 +131,16 @@ Misc:
 
 **index.html**
 
-[About section:](documentation/wireframes/about.png)
+[About section:](documentation/images/about.png)
 - The About section features a short text about what Digital Misfits is and what are the goals of the community.
 - Next to the text is an image showing speakers from one of the events hosted by Digital Misfits.
 
-[Recap section:](documentation/wireframes/recap.png)
+[Recap section:](documentation/images/recap.png)
 - The Recap section contains a video integrated with a i-frame and hosted on YouTube.
 - Next to the video a text about the events hosted Digital Misfits is to be found.
 - Under text and video six images with impressions from various events are shown.
 
-[Contact section:](documentation/wireframes/contact.png)
+[Contact section:](documentation/images/contact.png)
 - This section contains a contact form for sending a message to the page owner.
 - The contact form consits of four input fields and one checkbox and a send button below.
 - Next to the contact form a text with a link to the terms of services is to be found. 
@@ -155,7 +149,6 @@ Misc:
 - The email field needs to be filled with an email address.
 - The checkbox for accepting the terms and services has to be checked.
 - Afer clicking the send button the user is directed to the thankyou.html.
-
 
 **imprint.html**
 The imprint page only contains the terms of services and legal information in text form.
@@ -166,32 +159,6 @@ The imprint page only contains the terms of services and legal information in te
 
 **404.html**
 The 404 page contains a text, informing the user that the page could not be found, and link directing to the index.html.
-
-
-On all pages
-  Navigation
-  Name and Claim
-  Footer
-    Social Icons
-    Imprint link
-
-index.html
-  about section
-  Recap section
-    video
-    images
-    Contact form
-      Input validation
-      Terms of services checkbox with link
-      redirect to thankyou page
-- After sending a message over the contact form the user is routed to the tankyou.html page.
-
-thankyou.html
-- When routed to the tankyou.html page by the contact form, the user woll automatically be sent to the index.html after 10 seconds.
-
-imprint.html
-
-404.html
 
 ### Accessibility
 
